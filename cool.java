@@ -15,11 +15,11 @@ class password {
       System.out.println("Please enter your password.");
       userInput = input.nextLine();
 
-      if (userInput == password {
+      if (userInput.equals(password)) {
         correct = true;
       }
 
-      else if (!userInput == password) {
+      else if (!userInput.equals(password)) {
         System.out.println("Incorrect, please try again.");
       }
     }
